@@ -7,5 +7,6 @@ COPY dup-finder /usr/src/app/dup-finder/
 
 
 RUN npm install
+RUN npm link
 
 CMD ["sh"]
